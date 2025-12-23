@@ -1,11 +1,11 @@
 # Wine Quality Prediction Using Machine Learning
 
-## 📊 Project Overview
+## Project Overview
 This project focuses on predicting wine quality based on its chemical properties using machine learning techniques. The objective is to analyze key factors affecting wine quality and build accurate predictive models while generating actionable business insights for wineries.
 
 ---
 
-## 📁 Dataset
+## Dataset
 - **Source:** Wine Quality Dataset
 - **Size:** 1,999 samples, 12 features
 - **Target Variable:** Wine quality (rating scale 0–10)
@@ -13,7 +13,7 @@ This project focuses on predicting wine quality based on its chemical properties
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 - Identified strong positive correlation between **alcohol content** and wine quality
 - Observed class imbalance with most wines rated as medium quality
 - Detected outliers in **residual sugar** and **volatile acidity**
@@ -21,14 +21,14 @@ This project focuses on predicting wine quality based on its chemical properties
 
 ---
 
-## 🛠️ Data Preprocessing
+## Data Preprocessing
 - Handled outliers using the **Interquartile Range (IQR)** method
 - Applied **StandardScaler** for feature normalization
 - Verified no missing values in the dataset
 
 ---
 
-## 🧠 Feature Engineering
+## Feature Engineering
 - Created new features:
   - `sugar_acidity_ratio`
   - `sulfur_dioxide_ratio`
@@ -39,7 +39,7 @@ This project focuses on predicting wine quality based on its chemical properties
 
 ---
 
-## 🤖 Model Building
+## Model Building
 ### Classification
 - **Model:** Random Forest Classifier
 - **Accuracy:** ~90%
@@ -56,14 +56,14 @@ This project focuses on predicting wine quality based on its chemical properties
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 - Alcohol and sulphates are the strongest predictors of wine quality
 - Higher-quality wines tend to have balanced acidity and higher alcohol content
 - Clustering revealed distinct wine groups useful for marketing strategies
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
@@ -71,19 +71,19 @@ This project focuses on predicting wine quality based on its chemical properties
 
 ---
 
-## 📄 Files in This Repository
+## Files in This Repository
 - Jupyter Notebook with full analysis and modeling
 - Final project report (PDF)
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Address class imbalance using resampling techniques
 - Explore ensemble and boosting models
 - Improve clustering with advanced distance metrics
 
 ---
 
-## 👩‍💻 Author
+## Author
 **Anjali Velu Ramalingam**  
 Graduate Student – Data Science / Analytics
