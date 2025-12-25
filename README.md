@@ -3,7 +3,6 @@
 ## Project Overview
 This project focuses on predicting wine quality based on its chemical properties using machine learning techniques. The objective is to analyze key factors affecting wine quality and build accurate predictive models while generating actionable business insights for wineries.
 
----
 
 ## Dataset
 - **Source:** Wine Quality Dataset
@@ -11,7 +10,6 @@ This project focuses on predicting wine quality based on its chemical properties
 - **Target Variable:** Wine quality (rating scale 0–10)
 - **Key Features:** Alcohol, sulphates, volatile acidity, density, residual sugar
 
----
 
 ## Exploratory Data Analysis (EDA)
 - Identified strong positive correlation between **alcohol content** and wine quality
@@ -19,14 +17,12 @@ This project focuses on predicting wine quality based on its chemical properties
 - Detected outliers in **residual sugar** and **volatile acidity**
 - Visualized distributions, correlations, and feature relationships
 
----
 
 ## Data Preprocessing
 - Handled outliers using the **Interquartile Range (IQR)** method
 - Applied **StandardScaler** for feature normalization
 - Verified no missing values in the dataset
 
----
 
 ## Feature Engineering
 - Created new features:
@@ -37,7 +33,6 @@ This project focuses on predicting wine quality based on its chemical properties
   - Correlation analysis
 - Reduced dimensionality using **PCA** while retaining 95% variance
 
----
 
 ## Model Building
 ### Classification
@@ -54,14 +49,12 @@ This project focuses on predicting wine quality based on its chemical properties
 - **K-Means:** 3 clusters, Silhouette Score ~0.57
 - **DBSCAN:** Limited effectiveness due to data sparsity
 
----
 
 ## Key Insights
 - Alcohol and sulphates are the strongest predictors of wine quality
 - Higher-quality wines tend to have balanced acidity and higher alcohol content
 - Clustering revealed distinct wine groups useful for marketing strategies
 
----
 
 ## Tech Stack
 - Python
@@ -69,20 +62,17 @@ This project focuses on predicting wine quality based on its chemical properties
 - Matplotlib, Seaborn
 - Scikit-learn
 
----
 
 ## Files in This Repository
 - Jupyter Notebook with full analysis and modeling
 - Final project report (PDF)
 
----
 
 ## Future Improvements
 - Address class imbalance using resampling techniques
 - Explore ensemble and boosting models
 - Improve clustering with advanced distance metrics
 
----
 
 ## Author
 **Anjali Velu Ramalingam**  
