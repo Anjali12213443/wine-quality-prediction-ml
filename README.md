@@ -3,6 +3,12 @@
 ## Project Overview
 This project focuses on predicting wine quality based on its chemical properties using machine learning techniques. The objective is to analyze key factors affecting wine quality and build accurate predictive models while generating actionable business insights for wineries.
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-Ensemble-green)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 ## Dataset
 - **Source:** Wine Quality Dataset
